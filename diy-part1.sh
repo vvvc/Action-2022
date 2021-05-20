@@ -19,7 +19,3 @@ sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packa
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git hwfuture https://github.com/hongweifuture/openwrt-packages' feeds.conf.default
 sed -i '$a src-git pwdep https://github.com/hongweifuture/pwdep.git' feeds.conf.default
-sed -i '$a src-git packages https://github.com/coolsnowwolf/packages' feeds.conf.default
-sed -i '$a src-git luci https://github.com/coolsnowwolf/luci' feeds.conf.default
-sed -i '$a src-git routing https://git.openwrt.org/feed/routing.git' feeds.conf.default
-sed -i '$a src-git telephony https://git.openwrt.org/feed/telephony.git' feeds.conf.default
