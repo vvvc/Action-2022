@@ -19,3 +19,4 @@ sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packa
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git hwfuture https://github.com/hongweifuture/openwrt-packages' feeds.conf.default
 sed -i '$a src-git pwdep https://github.com/hongweifuture/pwdep.git' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
