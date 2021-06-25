@@ -1,9 +1,4 @@
-#=================================================
-# Description: Build OpenWrt using GitHub Actions
-# Lisence: MIT
-#=================================================
-
-name: Build_x86_64-999
+name: Build_x86_64_999
 
 on: 
   repository_dispatch:
@@ -82,7 +77,7 @@ jobs:
         git clone https://github.com/lisaac/luci-app-dockerman.git package/lisaac
     #    git clone "your_github_link" package/"your_folder_name"      
 
-    - name: Configuration Customization - Build_x86_64-999
+    - name: Configuration Customization - Build_x86_64_999
       env:
         CONFIG_FILE: '999.config'
       run: |
