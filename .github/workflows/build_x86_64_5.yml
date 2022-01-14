@@ -4,7 +4,7 @@
 # Author: eSirPlayground
 #=================================================
 
-name: Build_x86_64_6
+name: Build_x86_64_5
 
 on: 
   repository_dispatch:
@@ -83,7 +83,7 @@ jobs:
         git clone https://github.com/lisaac/luci-app-dockerman.git package/lisaac
     #    git clone "your_github_link" package/"your_folder_name"      
 
-    - name: Configuration Customization - Build_x86_64_6
+    - name: Configuration Customization - Build_x86_64_5
       env:
         CONFIG_FILE: 'x86_64.config'
       run: |
