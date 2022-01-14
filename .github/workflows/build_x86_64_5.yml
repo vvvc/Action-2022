@@ -4,7 +4,7 @@
 # Author: eSirPlayground
 #=================================================
 
-name: Build_x86_64_5
+name: Build x86_64_5
 
 on: 
   repository_dispatch:
