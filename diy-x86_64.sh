@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.99.1/g' package/base-files/files/bin/config_generate
+sed -i 's/10.0.0.252/g' package/base-files/files/bin/config_generate
 #git clone https://github.com/jerrykuku/openwrt-package package/one
 #git clone https://github.com/kenzok8/openwrt-packages package/two
 #git clone https://github.com/kenzok8/small package/small
@@ -48,19 +48,14 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns ../luc
 
 # Add 京东签到
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus ../luci-app-jd-dailybonus
+
 # Add theme
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-argon_new ../luci-theme-argon_new
-
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial ../luci-theme-atmaterial
-
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-edge ../luci-theme-edge
-
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-ifit ../luci-theme-ifit
-
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomato ../luci-theme-opentomato 
-
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat ../luci-theme-opentomcat
-
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentopd ../luci-theme-opentopd
 
 
