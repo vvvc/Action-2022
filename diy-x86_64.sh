@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 # Modify default IP
-sed -i 's/10.0.0.252/g' package/base-files/files/bin/config_generate
+sed -i 's/10.0.0.252/192.168.1.1/g' package/base-files/files/bin/config_generate
 #git clone https://github.com/jerrykuku/openwrt-package package/one
 #git clone https://github.com/kenzok8/openwrt-packages package/two
 #git clone https://github.com/kenzok8/small package/small
