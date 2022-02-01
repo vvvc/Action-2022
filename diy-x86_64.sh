@@ -47,7 +47,7 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-clash ../luci-
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns ../luci-app-aliddns
 
 # Add 京东签到
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus ../luci-app-jd-dailybonus
+svn co https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus ../luci-app-jd-dailybonus
 
 # Add theme
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-argon_new ../luci-theme-argon_new
