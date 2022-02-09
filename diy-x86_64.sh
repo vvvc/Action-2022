@@ -51,6 +51,10 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns ../luc
 # Add 京东签到
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus ../luci-app-jd-dailybonus
 
+rm -rf package/lean/luci-theme-argon
+git clone -b 18.06 --depth 1 --single-branch https://github.com/jerrykuku/luci-theme-argon.git package/custom/luci-theme-argon
+git clone --depth 1 --single-branch https://github.com/jerrykuku/luci-app-argon-config.git package/custom/luci-app-argon-config
+
 popd
 
 pushd package/community/OpenClash/luci-app-openclash/tools/po2lmo
